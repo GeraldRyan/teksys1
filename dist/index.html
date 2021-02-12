@@ -8,29 +8,31 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <header style="background-image: url('./assets/beach.jpg');">
+    <header style="background-image: url('./assets/tropical-beach.jpg');">
       <nav>
         <div class="left-side-oriented"><a href="#">Home</a></div>
         <div class="right-side-oriented"><a href="#">Host</a><a href="#">Sign Up</a><a href="#">Log In</a><a href="#">Contact</a></div>
       </nav>
       <form id="search-form">
-        <h2>Find places to stay with YourGetaway</h2>
-        <input name="location" type="text" placeholder="Enter location">
+        <h2>Find where to stay with YourGetaway</h2>
+        <p>Discover private houses and entire homes for new adventures</p>
+        <div class="fields-and-buttons">
+          <label class="input-field-label input" id="location-input-label" for="location">Location</label>
+          <input class="input-field input" id="location-input" name="location" type="text" placeholder="Enter location" minlength="4" maxlength="20">
+          <label class="input-field-label" id="checkin-input-label" for="checkin">Check In Date</label>
+          <input class="input-field" id="checkin-input" name="checkin" type="text" placeholder="Enter check in date" minlength="4" maxlength="20">
+          <label class="input-field-label" id="checkout-input-label" for="checkout">Check Out Date</label>
+          <input class="input-field" id="checkout-input" name="checkout" type="text" placeholder="Enter check out date" minlength="4" maxlength="20">
+          <label class="input-field-label" id="adults-input-label" for="adults">Adults</label>
+          <input class="input-field" id="adults-input" name="adults" type="text" placeholder="Enter adults" minlength="4" maxlength="20">
+          <label class="input-field-label" id="children-input-label" for="children">Children</label>
+          <input class="input-field" id="children-input" name="children" type="text" placeholder="Enter children" minlength="4" maxlength="20">
+          <button id="location-search">Search</button>
+        </div>
       </form>
     </header>
     <section></section>
     <section></section>
     <footer></footer>
-    <h1 id="greetings">Hello World</h1>
-    <p class="bit-paragraph">
-      This is a paragraph tag
-      and this is a new line
-    </p>
-    <ul>
-      <li>This is item 1</li>
-      <li>This is item 2</li>
-      <li>This is item 3</li>
-      <input type="password">
-    </ul>
   </body>
 </html>
