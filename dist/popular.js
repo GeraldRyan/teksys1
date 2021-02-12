@@ -24,7 +24,7 @@ resultsHeadings.forEach((v, i, a) => {
 for (let i = 0; i < sampleResultsData.length; i++) {
     let tr = document.createElement("tr");
     resultsTable.appendChild(tr);
-    sampleResultsData.forEach((v, i, a) => {
+    sampleResultsData[i].forEach((v, i, a) => {
         let newTD = document.createElement("td");
         let newTextNode = document.createTextNode(v);
         newTD.appendChild(newTextNode);
