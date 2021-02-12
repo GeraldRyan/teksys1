@@ -9,7 +9,7 @@ function submitRegistration() {
   let username:any = (<HTMLInputElement>document.getElementById("username-input")).value
   let password:any = (<HTMLInputElement>document.getElementById("password-input")).value
   let passwordConfirm:any = (<HTMLInputElement>document.getElementById("repassword-input")).value
-  let bReceiveNewsletter:any = (<HTMLInputElement>document.getElementById("children-input")).value
+  let bReceiveNewsletter:any = (<HTMLInputElement>document.getElementById("newsletter-input")).value
   let registrationData: object = {
     email: email,
     username: username,

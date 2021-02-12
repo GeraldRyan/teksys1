@@ -8,7 +8,7 @@ function submitRegistration() {
     let username = document.getElementById("username-input").value;
     let password = document.getElementById("password-input").value;
     let passwordConfirm = document.getElementById("repassword-input").value;
-    let bReceiveNewsletter = document.getElementById("children-input").value;
+    let bReceiveNewsletter = document.getElementById("newsletter-input").value;
     let registrationData = {
         email: email,
         username: username,
