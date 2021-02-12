@@ -1,22 +1,25 @@
 * {
   // border: 1px solid red
 }
-nav {
-  background-color: green;
-  display: flex;
-  justify-content: space-between;
-  .left-side-oriented {
-    width: 50%;
-    // border: 5px solid blue
-  }
-  .right-side-oriented {
-    width: 50%;
+header {
+  height: 200px;
+  nav {
+    // background-color: green;
     display: flex;
     justify-content: space-between;
-  }
-  a {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
+    .left-side-oriented {
+      width: 50%;
+      // border: 5px solid blue
+    }
+    .right-side-oriented {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+    }
   }
 }
