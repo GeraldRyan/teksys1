@@ -15,6 +15,9 @@ header nav {
 header nav .left-side-oriented {
   width: 50%;
 }
+header nav .left-side-oriented a {
+  padding: 0 10px;
+}
 header nav .right-side-oriented {
   width: 50%;
   display: flex;
