@@ -11,3 +11,23 @@ tags.forEach((v, i, a) => {
     newButton.appendChild(newTextNode);
     tagAreaDiv.appendChild(newButton);
 });
+let resultsHeadings = ["City", "Country", "Booking Agent", "Description"];
+let sampleResultsData = [["Marburg", "Germany", "Heidi G.", "Super Cool Place"], ["Capetown", "South Africa", "Natalie P.", "Super Cool Place"], ["Bogota", "Columbia", "Alejandra G.", "Super Cool Place"], ["Chaing Main", "Thailand", "Sara M.", "Super Cool Place"]];
+let resultsTable = document.getElementById("results-table");
+let tableHeading = document.getElementById("table-heading");
+resultsHeadings.forEach((v, i, a) => {
+    let newTH = document.createElement("th");
+    let newTextNode = document.createTextNode(v);
+    newTH.appendChild(newTextNode);
+    tableHeading.appendChild(newTH);
+});
+for (let i = 0; i < sampleResultsData.length; i++) {
+    let tr = document.createElement("tr");
+    resultsTable.appendChild(tr);
+    sampleResultsData.forEach((v, i, a) => {
+        let newTD = document.createElement("td");
+        let newTextNode = document.createTextNode(v);
+        newTD.appendChild(newTextNode);
+        tr.appendChild(newTD);
+    });
+}
