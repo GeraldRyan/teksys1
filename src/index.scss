@@ -23,6 +23,7 @@ header {
     }
   }
   #search-form {
+    // *{border: 1px solid red}
     background-color: white;
     opacity: 1;
     z-index: 2;
@@ -30,8 +31,44 @@ header {
     margin: 100px 0px 0px 100px;
     width: 500px;
     box-shadow: 3px 3px grey;
-    input {
-      display: block;
+    .fields-and-buttons {
+      display: flex;
+      flex-direction: column;
+      // flex-basis: 100%;
+      // flex: 1;
+      .input-row {
+        // border: 1px solid green;
+        min-width: 100%;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        .input-container {
+          width:45%;
+          margin:5px auto;
+          .input-field-label{
+            font-size: 20px;
+            color: rgb(211, 149, 149);
+          }
+          .input-field, button{
+            border-radius: 10px;
+            height: 30px;
+            font-size: 20px;
+            border: 1px solid grey;
+          }
+          button{
+            width: 100%;
+          }
+          .input-field:focus{
+            background-color:rgb(212, 165, 165);
+          }
+          .input-field,
+          .input-field-label {
+            display: block;
+            width: 100%;
+          }
+        }
+      }
     }
   }
 }

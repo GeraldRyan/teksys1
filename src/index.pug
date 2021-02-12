@@ -20,17 +20,27 @@ html
         h2 Find where to stay with YourGetaway
         p Discover private houses and entire homes for new adventures
         div.fields-and-buttons
-          label#location-input-label.input-field-label.input(for="location") Location
-          input#location-input.input-field.input(name="location" type="text" placeholder="Enter location" minlength="4" maxlength="20")
-          label#checkin-input-label.input-field-label(for="checkin") Check In Date
-          input#checkin-input.input-field(name="checkin" type="text" placeholder="Enter check in date" minlength="4" maxlength="20")
-          label#checkout-input-label.input-field-label(for="checkout") Check Out Date
-          input#checkout-input.input-field(name="checkout" type="text" placeholder="Enter check out date" minlength="4" maxlength="20")
-          label#adults-input-label.input-field-label(for="adults") Adults
-          input#adults-input.input-field(name="adults" type="text" placeholder="Enter adults" minlength="4" maxlength="20")
-          label#children-input-label.input-field-label(for="children") Children
-          input#children-input.input-field(name="children" type="text" placeholder="Enter children" minlength="4" maxlength="20")
-          button#location-search Search
+          div.input-row
+            div.input-container
+              label#location-input-label.input-field-label(for="location") Location
+              input#location-input.input-field(name="location" type="text" placeholder="Enter location" minlength="4" maxlength="20")
+          div.input-row
+            div.input-container
+              label#checkin-input-label.input-field-label(for="checkin") Check In Date
+              input#checkin-input.input-field(name="checkin" type="text" placeholder="Enter check in date" minlength="4" maxlength="20")
+            div.input-container
+              label#checkout-input-label.input-field-label(for="checkout") Check Out Date
+              input#checkout-input.input-field(name="checkout" type="text" placeholder="Enter check out date" minlength="4" maxlength="20")
+          div.input-row
+            div.input-container
+              label#adults-input-label.input-field-label(for="adults") Adults
+              input#adults-input.input-field(name="adults" type="text" placeholder="Enter adults" minlength="4" maxlength="20")
+            div.input-container
+              label#children-input-label.input-field-label(for="children") Children
+              input#children-input.input-field(name="children" type="text" placeholder="Enter children" minlength="4" maxlength="20")
+          div.input-row
+            div.input-container
+              button#location-search Search
 
     section
     section

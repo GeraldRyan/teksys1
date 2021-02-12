@@ -27,8 +27,41 @@ header #search-form {
   width: 500px;
   box-shadow: 3px 3px grey;
 }
-header #search-form input {
+header #search-form .fields-and-buttons {
+  display: flex;
+  flex-direction: column;
+}
+header #search-form .fields-and-buttons .input-row {
+  min-width: 100%;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+header #search-form .fields-and-buttons .input-row .input-container {
+  width: 45%;
+  margin: 5px auto;
+}
+header #search-form .fields-and-buttons .input-row .input-container .input-field-label {
+  font-size: 20px;
+  color: #d39595;
+}
+header #search-form .fields-and-buttons .input-row .input-container .input-field, header #search-form .fields-and-buttons .input-row .input-container button {
+  border-radius: 10px;
+  height: 30px;
+  font-size: 20px;
+  border: 1px solid grey;
+}
+header #search-form .fields-and-buttons .input-row .input-container button {
+  width: 100%;
+}
+header #search-form .fields-and-buttons .input-row .input-container .input-field:focus {
+  background-color: #d4a5a5;
+}
+header #search-form .fields-and-buttons .input-row .input-container .input-field,
+header #search-form .fields-and-buttons .input-row .input-container .input-field-label {
   display: block;
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */
