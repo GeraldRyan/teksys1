@@ -38,7 +38,7 @@ header {
     border: 1px solid grey;
     margin: 100px 0px 0px 100px;
     width: 400px;
-    height: 400px;
+    min-height: 450px;
     box-shadow: 3px 3px grey;
     .fields-and-buttons {
       display: flex;

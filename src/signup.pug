@@ -37,6 +37,13 @@ html
               input#repassword-input.input-field(name="repassword" type="password" placeholder="re-enter password" minlength="4" maxlength="20")
           div.input-row
             div.input-container
+              label#newsletter-input-label.input-field-label(for="newsletter") Receive Newsletter
+              select#newsletter-input.input-field(name="newsletter" type="dropdown")
+                option(value="Yes") Yes
+                option(value="No") No Thanks
+
+          div.input-row
+            div.input-container
               button#submit-registration-btn Submit
     section#section-one
       br
