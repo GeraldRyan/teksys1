@@ -1,0 +1,18 @@
+#tag-area{
+  display:flex;
+  align-items: space-between;
+  justify-content: space-between;
+  // background-color:white;
+  opacity: .5;
+  margin: 20px;
+  // min-height:;
+  button{
+    background-color:rgb(255, 117, 135);
+    max-height: 20px;
+    border-radius: 6px;
+    color:black;
+  }
+  button:active{
+    background-color:rgb(189, 77, 77);
+  }
+}

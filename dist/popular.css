@@ -1,0 +1,18 @@
+#tag-area {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  opacity: 0.5;
+  margin: 20px;
+}
+#tag-area button {
+  background-color: #ff7587;
+  max-height: 20px;
+  border-radius: 6px;
+  color: black;
+}
+#tag-area button:active {
+  background-color: #bd4d4d;
+}
+
+/*# sourceMappingURL=popular.css.map */
