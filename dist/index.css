@@ -1,8 +1,14 @@
+body {
+  margin: 0;
+}
+
 header {
   min-height: 200px;
   background-image: url("./assets/tropical-beach.jpg");
+  background-size: cover;
 }
 header nav {
+  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -70,8 +76,20 @@ header #search-form .fields-and-buttons .input-row .input-container .input-field
 }
 
 #section-one {
-  width: 80%;
-  min-height: 300px;
+  width: 90%;
+  margin: 40px auto;
+  min-height: 450px;
+  background-image: url("./assets/beach.jpg");
+  background-size: cover;
+}
+
+#section-two {
+  color: black;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=index.css.map */
