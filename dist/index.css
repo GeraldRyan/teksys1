@@ -1,5 +1,6 @@
 header {
   min-height: 200px;
+  background-image: url("./assets/tropical-beach.jpg");
 }
 header nav {
   display: flex;
@@ -19,12 +20,15 @@ header nav a {
   font-size: 25px;
 }
 header #search-form {
+  border-radius: 10px;
+  padding: 5px;
   background-color: white;
   opacity: 1;
   z-index: 2;
   border: 1px solid grey;
   margin: 100px 0px 0px 100px;
-  width: 500px;
+  width: 400px;
+  height: 400px;
   box-shadow: 3px 3px grey;
 }
 header #search-form .fields-and-buttons {
@@ -49,11 +53,12 @@ header #search-form .fields-and-buttons .input-row .input-container .input-field
 header #search-form .fields-and-buttons .input-row .input-container .input-field, header #search-form .fields-and-buttons .input-row .input-container button {
   border-radius: 10px;
   height: 30px;
-  font-size: 20px;
+  font-size: 15px;
   border: 1px solid grey;
 }
 header #search-form .fields-and-buttons .input-row .input-container button {
   width: 100%;
+  font-size: 20px;
 }
 header #search-form .fields-and-buttons .input-row .input-container .input-field:focus {
   background-color: #d4a5a5;
@@ -62,6 +67,11 @@ header #search-form .fields-and-buttons .input-row .input-container .input-field
 header #search-form .fields-and-buttons .input-row .input-container .input-field-label {
   display: block;
   width: 100%;
+}
+
+#section-one {
+  width: 80%;
+  min-height: 300px;
 }
 
 /*# sourceMappingURL=index.css.map */

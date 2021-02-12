@@ -3,6 +3,7 @@
 }
 header {
   min-height: 200px;
+  background-image: url('./assets/tropical-beach.jpg');
   nav {
     // background-color: green;
     display: flex;
@@ -23,13 +24,15 @@ header {
     }
   }
   #search-form {
-    // *{border: 1px solid red}
+    border-radius: 10px;
+    padding: 5px;
     background-color: white;
     opacity: 1;
     z-index: 2;
     border: 1px solid grey;
     margin: 100px 0px 0px 100px;
-    width: 500px;
+    width: 400px;
+    height: 400px;
     box-shadow: 3px 3px grey;
     .fields-and-buttons {
       display: flex;
@@ -53,11 +56,12 @@ header {
           .input-field, button{
             border-radius: 10px;
             height: 30px;
-            font-size: 20px;
+            font-size: 15px;
             border: 1px solid grey;
           }
           button{
             width: 100%;
+            font-size:20px;
           }
           .input-field:focus{
             background-color:rgb(212, 165, 165);
@@ -71,4 +75,14 @@ header {
       }
     }
   }
+}
+
+#section-one{
+
+  width: 80%;
+  min-height: 300px;
+  // background-image;
+}
+#section-two{
+  
 }
