@@ -4,11 +4,12 @@ document
     runSearch();
 });
 function runSearch() {
-    let location = document.getElementById("location-input").value;
-    let checkin = document.getElementById("checkin-input").value;
-    let checkout = document.getElementById("checkout-input").value;
-    let adults = document.getElementById("adults-input").value;
-    let children = document.getElementById("children-input").value;
+    let location = (document.getElementById("location-input")).value;
+    let checkin = (document.getElementById("checkin-input")).value;
+    let checkout = (document.getElementById("checkout-input")).value;
+    let adults = document.getElementById("adults-input")
+        .value;
+    let children = (document.getElementById("children-input")).value;
     let searchQuery = {
         location: location,
         checkin: checkin,
@@ -38,7 +39,7 @@ function runSearch() {
         alert(`You have not been charged`);
     }
     // alert(`Are you sure you want to travel to ${location} at this time of year? `); // lulz
-    // EVIDENCE I'M GRABBING THE DATA. NOTE TO REVIEWER, THE CONSOLE CLEARS QUICKLY AS IT TRIES TO NAVIGATE TO LOCAL PATH. NOT SURE WHAT THAT MEANS, BUT CLICK CONSOLE SETTINGS> PRESERVE LOG AND YOU'LL SEE OBJECT. 
+    // EVIDENCE I'M GRABBING THE DATA. NOTE TO REVIEWER, THE CONSOLE CLEARS QUICKLY AS IT TRIES TO NAVIGATE TO LOCAL PATH. NOT SURE WHAT THAT MEANS, BUT CLICK CONSOLE SETTINGS> PRESERVE LOG AND YOU'LL SEE OBJECT.
     console.log(searchQuery);
 }
 function parseDate(s) {
