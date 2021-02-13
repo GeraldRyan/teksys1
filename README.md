@@ -11,5 +11,7 @@ The TypeScript, Pug and SCSS in the src directory.
 
 Rest are just filler or templates for future pages
 
-To watch and compile all .pug, .scss, and .ts files simulataneously- for instance while running live server, run  
+To watch and compile all .pug, .scss, and .ts files simulataneously- for instance while running live server, from the root directory run  
 ```npm run dev```. 
+
+Assuming you have the packages successfully installed 
